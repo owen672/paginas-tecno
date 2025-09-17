@@ -343,7 +343,7 @@
       <aside class="hero-card" aria-labelledby="plan-title">
         <h3 id="plan-title">Plan de mantenimiento básico</h3>
         <div class="price">
-          <strong>$80.000 COP</strong>
+          <strong>$120.000 COP</strong>
           <span style="color:var(--muted);font-size:13px">— revisión y optimización básica</span>
         </div>
         <div class="mini-list">
@@ -357,6 +357,48 @@
         </div>
       </aside>
     </section>
+    <aside class="hero-card" aria-labelledby="plan-title">
+        <h3 id="plan-title">Plan de mantenimiento intermedio</h3>
+        <div class="price">
+          <strong>$200.000 COP</strong>
+          <span style="color:var(--muted);font-size:13px">— revisión y optimización intermedio</span>
+        </div>
+        <div class="mini-list">
+          <div class="muted">· Análisis de disco, cambio y limpieza de archivos</div>
+          <div class="muted">· Optimización de inicio y servicios</div>
+          <div class="muted">· Actualización de controladores</div>
+          <div class="muted">· instalacion y actualizacion de office</div>
+          <div class="muted">· mantenimiento fisico de la pc</div>
+        </div>
+        <div style="margin-top:14px;">
+          <button class="btn" onclick="openWhatsApp()">Pedir cita via WhatsApp</button>
+          <button class="ghost" style="margin-left:8px" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Contacto</button>
+        </div>
+      </aside>
+    </section>
+     <aside class="hero-card" aria-labelledby="plan-title">
+        <h3 id="plan-title">Plan de mantenimiento premiun</h3>
+        <div class="price">
+          <strong>$300.000 COP</strong>
+          <span style="color:var(--muted);font-size:13px">— revisión y optimización intermedio</span>
+        </div>
+        <div class="mini-list">
+          <div class="muted">· Análisis de disco, cambio y limpieza de archivos</div>
+          <div class="muted">· Optimización de inicio y servicios</div>
+          <div class="muted">· Actualización de controladores</div>
+          <div class="muted">· instalacion y actualizacion de office</div>
+          <div class="muted">· mantenimiento fisico de la pc</div>
+          <div class="muted">· Cambio de pasta térmica para mejor refrigeración.</div>
+          <div class="muted">· Instalación de antivirus premium y configuración de seguridad.</div>
+          <div class="muted">· Soporte remoto ilimitado por 30 días después del mantenimiento</div>
+        </div>
+        <div style="margin-top:14px;">
+          <button class="btn" onclick="openWhatsApp()">Pedir cita via WhatsApp</button>
+          <button class="ghost" style="margin-left:8px" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Contacto</button>
+        </div>
+      </aside>
+    </section>
+
 
     <!-- SERVICIOS -->
     <section id="servicios" class="section" aria-labelledby="servicios-title">
@@ -589,7 +631,7 @@ function fillDemo() {
 
     // Open WhatsApp prefilled (cambia el número si lo deseas)
     function openWhatsApp(){
-      const phone = '+573001234567';
+      const phone = '+573138719583';
       const text = encodeURIComponent('Hola, necesito información sobre servicios de TecnoWeb Solutions.');
       window.open('https://wa.me/' + phone.replace(/\D/g,'') + '?text=' + text, '_blank');
     }
@@ -626,7 +668,7 @@ function fillDemo() {
     function fillDemo(){
       document.getElementById('name').value = 'Juan Pérez';
       document.getElementById('email').value = 'juan@ejemplo.com';
-      document.getElementById('phone').value = '+57 300 111 2222';
+      document.getElementById('phone').value = '+57 313 871 9583';
       document.getElementById('service').value = 'Optimización PC';
       document.getElementById('message').value = 'Necesito optimizar mi computador que está muy lento. ¿Cuánto cuesta?';
     }
